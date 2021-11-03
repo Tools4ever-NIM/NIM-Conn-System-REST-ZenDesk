@@ -69,8 +69,39 @@
                         }
                     }
                 }
+            },
+            "organizations": {
+                "operations": {
+                    "organizations_get": {
+                        "method": "get",
+                        "call": {
+                            "path": "/api/v2/organizations"
+                        },
+                        "processing_options": {
+                            "output_field": "organizations"
+                        },
+                        "query_parameters": {}
+                    }
+                },
+                "parameters": {},
+                "key": "id",
+                "resources": {
+                    "created_at": "string*",
+                    "details": "string*",
+                    "domain_names": ["string*"],
+                    "external_id": "string*",
+                    "group_id": "number*",
+                    "id": "number*",
+                    "name": "string*",
+                    "notes": "string*",
+                    "organization_fields": "string*",
+                    "shared_comments": "boolean*",
+                    "shared_tickets": "boolean*",
+                    "tags": ["string*"],
+                    "updated_at": "string*",
+                    "urll": "string*"
+                }
             }
-           
         }
     },
     "rest": {
