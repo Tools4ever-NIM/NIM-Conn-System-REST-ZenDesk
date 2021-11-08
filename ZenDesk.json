@@ -99,7 +99,88 @@
                     "shared_tickets": "boolean*",
                     "tags": ["string*"],
                     "updated_at": "string*",
-                    "urll": "string*"
+                    "url": "string*"
+                }
+            },
+            "groups": {
+                "operations": {
+                    "groups_get": {
+                        "method": "get",
+                        "call": {
+                            "path": "/api/v2/groups"
+                        },
+                        "processing_options": {
+                            "output_field": "groups"
+                        },
+                        "query_parameters": {}
+                    }
+                },
+                "parameters": {},
+                "key": "id",
+                "resources": {
+                    "created_at": "string*",
+                    "default": "boolean*",
+                    "deleted": "boolean*",
+                    "description": "string*",
+                    "id": "number*",
+                    "name": "string*",
+                    "updated_at": "string*",
+                    "url": "string*"
+                }
+            },
+            "group_memberships": {
+                "operations": {
+                    "group_memberships_get": {
+                        "method": "get",
+                        "call": {
+                            "path": "/api/v2/group_memberships"
+                        },
+                        "processing_options": {
+                            "output_field": "group_memberships"
+                        },
+                        "query_parameters": {}
+                    }
+                },
+                "parameters": {},
+                "key": "id",
+                "resources": {
+                    "created_at": "string*",
+                    "default": "boolean*",
+                    "group_id": "number*",
+                    "id": "number*",
+                    "updated_at": "string*",
+                    "user_id": "number*"
+                }
+            },
+            "user_fields": {
+                "operations": {
+                    "user_fields_get": {
+                        "method": "get",
+                        "call": {
+                            "path": "/api/v2/user_fields"
+                        },
+                        "processing_options": {
+                            "output_field": "user_fields"
+                        },
+                        "query_parameters": {}
+                    }
+                },
+                "parameters": {},
+                "key": "id",
+                "resources": {
+                    "active": "boolean*",
+                    "created_at": "string*",
+                    "description": "string*",
+                    "id": "number*",
+                    "key": "string*",
+                    "position": "number*",
+                    "raw_description": "string*",
+                    "raw_title": "string*",
+                    "regexp_for_validation": "string*",
+                    "title": "string*",
+                    "type": "string*",
+                    "updated_at": "string*",
+                    "url": "string*"
                 }
             }
         }
