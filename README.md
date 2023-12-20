@@ -1,15 +1,17 @@
-# NIM-Conn-System-REST-ZenDesk
-
-<p align="center">
-  <!-- <img src="https://www.tools4ever.com/wp-content/uploads/2020/12/oneroster-logo.png"> -->
-</p>
-
-# Configuration
-- Basic Authentication via User Account (https://developer.zendesk.com/api-reference/ticketing/introduction/#security-and-authentication)
+# ZenDesk
+<img src="https://github.com/Tools4ever-NIM/NIM-System-REST-ZenDesk/assets/24281600/d6fd1462-cb47-4805-95ca-38589fa9c3eb" width="256px" />
 
 
-API documentation
-https://developer.zendesk.com/api-reference/
+## Data Tables
+- Groups
+- Group Memberships
+- Organizations
+- Users
+- User Fields
+
+
+## Actions
+N/A
 
 # NIM Docs
 The official NIM documentation can be found at: https://docs.nimsuite.com
